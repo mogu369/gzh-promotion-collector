@@ -4,16 +4,10 @@
 
 ## 一句话安装
 
-需要 Node.js **22.20 或更高版本**。在本仓库页面复制这句，在终端里执行：
+需要 Node.js **22.20 或更高版本**。在终端里执行这一句即可：
 
 ```bash
-npx skills add <owner>/<repo>
-```
-
-例如：
-
-```bash
-npx skills add zhangsan/gzh-promotion-collector
+npx skills add mogu369/gzh-promotion-collector
 ```
 
 安装时会让你选装到哪个 AI 工具（Claude Code / Codex / Cursor / OpenCode 等 75+ 种）以及装到当前项目还是全局（加 `-g` 全局可用）。装完重启对应工具即可调用。
@@ -21,10 +15,10 @@ npx skills add zhangsan/gzh-promotion-collector
 只装这一个 skill、指定工具、全局安装：
 
 ```bash
-npx skills add <owner>/<repo> --skill gzh-promotion-collector -a claude-code -g
+npx skills add mogu369/gzh-promotion-collector --skill gzh-promotion-collector -a claude-code -g
 ```
 
-> `<owner>/<repo>` 换成你实际的用户名和仓库名。GitHub 仓库可用；Gitee 仓库需确认 skills CLI 是否支持（官方主力支持 GitHub / GitLab）。
+> 若 forks 或改名，把 `mogu369/gzh-promotion-collector` 换成你自己的 `<owner>/<repo>`。GitHub 仓库可用；Gitee 仓库需确认 skills CLI 是否支持（官方主力支持 GitHub / GitLab）。
 
 ## 首次使用：填城市
 
