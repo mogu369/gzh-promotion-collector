@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 运行时产物（不入库）
+output/
+*.bak
+*.bak.*
+_dbg.txt
+_build_*.py
+
+# 系统
+.DS_Store
+Thumbs.db
